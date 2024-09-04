@@ -47,3 +47,13 @@ Then select the desired device using:
         Then select the desired device using:
         Run the  "flutter run -d <device_id>" command
 
+Below is a video showing the UI and functionality of the app
+
+
+https://github.com/user-attachments/assets/350cff23-41dd-43c2-a124-d28a46d2716f
+
+
+
+
+
+
