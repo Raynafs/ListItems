@@ -28,7 +28,7 @@ class AddItemForm extends StatelessWidget {
           key: _formKey,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min, // Ensure the column doesn't take more space than needed
+            mainAxisSize: MainAxisSize.min,
             children: [
               Text(
                 '*Indicates required fields',
@@ -79,12 +79,11 @@ class AddItemForm extends StatelessWidget {
                   ElevatedButton(
                     onPressed: () {
                       if (_formKey.currentState!.validate()) {
-                        // Create a map with the input data
+
                         final newItem = {
                           'title': titleController.text,
                           'description': descriptionController.text
                         };
-                        // Pass the new item back to the previous screen
                         Navigator.of(context).pop(newItem);
                       }
                     },

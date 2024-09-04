@@ -53,7 +53,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
         backgroundColor: Colors.white,
         actions: [
           Padding(
-            padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 10.0), // Add vertical padding around the button
+            padding: const EdgeInsets.symmetric(vertical: 12.0, horizontal: 10.0),
             child: TextButton.icon(
               onPressed: _openAddItemForm,
               icon: Icon(Icons.add, color: Colors.white),
@@ -63,7 +63,7 @@ class _ItemListScreenState extends State<ItemListScreen> {
               ),
               style: TextButton.styleFrom(
                 backgroundColor: Colors.blue[900],
-                padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0), // Reduced padding inside the button
+                padding: EdgeInsets.symmetric(horizontal: 8.0, vertical: 4.0),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(16.0),
                 ),
